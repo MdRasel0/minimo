@@ -1,0 +1,134 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/* Header start*/
+header{
+	padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 55px;
+	padding:10px 0;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	transition:.5s;
+	border:1px solid transparent;
+}
+.menu ul li a:last-child{
+	margin-right:0;
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/* Header end*/
+/* Banner start*/
+.banner{}
+.b_img{
+width: 100%;
+}
+/*Banner end*/
+/* Gateway start*/
+.gateway{
+}
+.container_2{
+	width: 83%;
+	margin:0 auto;
+	padding-top: 65px;
+}
+.container_2 h1{
+	font-family:'Ubuntu', sans-serif;
+	font-size:16px;
+	font-weight:300;
+	text-transform: uppercase;
+	margin-bottom: 29px;
+}
+.container_2 h2{
+	font-size:30px;
+	font-weight:700;
+	margin-bottom: 40px;
+}
+.container_2 p{
+	font-size:16px;
+	font-weight: 400;
+}
+.comment{
+	border:1px solid blue;
+}
+input[type=text]{
+	font-family:'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight:300;
+	text-transform: uppercase;
+	border: none;
+	margin-top: 55px
+}
+.newsletter{
+	background-color: #F0F0F0;
+    margin-top: 65px;
+    padding: 77px 0;
+}
+.container_3{
+	width: 50%;
+	margin:0 auto;
+}
+.text{
+    width: 60%;
+    margin: 0 auto;
+}
+.text h3{
+	font-size:30px;
+	font-weight:700;
+	text-align: center;
+}
+.ns_form{
+	width: 60%;
+	margin-top:85px;
+}
+.ns_form input{
+  	font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 149px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: #F0F0F0;
+}
+/* Gateway end*/
