@@ -98,6 +98,8 @@ input[type=text]{
 	border: none;
 	margin-top: 55px
 }
+/* Gateway end*/
+/* Newsletter start*/
 .newsletter{
 	background-color: #F0F0F0;
     margin-top: 65px;
@@ -119,9 +121,10 @@ input[type=text]{
 .ns_form{
 	width: 60%;
 	margin-top:85px;
+	position: relative;
 }
 .ns_form input{
-  	font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     font-weight: 400;
     width: 100%;
@@ -130,5 +133,11 @@ input[type=text]{
     border: none;
     border-bottom: 1px solid #626262;
     background-color: #F0F0F0;
+    position: absolute;
 }
-/* Gateway end*/
+.send{
+	position: absolute;
+    cursor: pointer;
+    margin-left: 525px;
+}
+/* Newsletter start*/
